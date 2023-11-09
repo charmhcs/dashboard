@@ -10,7 +10,7 @@ df = pd.DataFrame({
   'second column': [10, 20, 30, 40]
 })
 
-df
+
 
 st.write("Here's our first attempt at using data to create a table:")
 st.write(pd.DataFrame({
