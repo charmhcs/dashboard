@@ -4,17 +4,14 @@ Here's our first attempt at using data to create a table:
 """
 
 import streamlit as st
-import pandas as pd
-df = pd.DataFrame({
-  'first column': [1, 2, 3, 4],
-  'second column': [10, 20, 30, 40]
-})
 
-df
-
-st.write("Here's our first attempt at using data to create a table:")
-st.write(pd.DataFrame({
-    'first column': [1, 2, 3, 4],
-    'second column': [10, 20, 30, 40]
-}))
-
+st.text('Fixed width text')
+st.markdown('_Markdown_') # see #*
+st.caption('Balloons. Hundreds of them...')
+st.latex(r''' e^{i\pi} + 1 = 0 ''')
+st.write('Most objects') # df, err, func, keras!
+st.write(['st', 'is <', 3]) # see *
+st.title('My title')
+st.header('My header')
+st.subheader('My sub')
+st.code('for i in range(8): foo()'
