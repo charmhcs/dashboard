@@ -14,4 +14,4 @@ st.write(['st', 'is <', 3]) # see *
 st.title('My title')
 st.header('My header')
 st.subheader('My sub')
-st.code('for i in range(8): foo()'
+st.code('for i in range(8): foo()
